@@ -109,7 +109,7 @@ li>.nav-links{
 /* card related styles here  */
 .container{
     max-width: 1047px;
-    height: 1662px;
+    height: 100%;
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -154,7 +154,50 @@ li>.nav-links{
     max-width: 196px;
     line-height: 143%;
     color: #787885;
+    
 }
+.more-about{
+    float: right;
+    margin-top: 50px;
+    
+}
+.see-more{
+    color: rgba(224, 44, 109, 0.87);   
+   
+}
+/* feature card section related styles here  */
+.feature-product{
+  justify-content: center;
+  align-items: center;
+  max-width: 1110px;
+  height: 270px;
+  margin: 0 auto;
+  gap:96px;
+}
+.feature-content{
+    max-width: 610px;
+    height: 224px;
+}
+.feature-title{
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+.feature-desc{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 28px;
+    color:#6C6C6C ;
+}
+.btn{
+    margin-top: 16px;
+    padding: 15px 30px;
+    background-color: #E02C6D;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
 /* main section ends here  */
 
 /* responsive media query  */
@@ -192,6 +235,12 @@ li>.nav-links{
     }
     .card-container{
         grid-template-columns: repeat(1,1fr);
+        width:100%;
+    }
+    .more-about{
+        float: right;
+        margin:50px;
+        
     }
 
     
