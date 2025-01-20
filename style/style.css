@@ -109,7 +109,6 @@ li>.nav-links{
 /* card related styles here  */
 .container{
     max-width: 1047px;
-    height: 100%;
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -172,6 +171,7 @@ li>.nav-links{
   max-width: 1110px;
   height: 270px;
   margin: 0 auto;
+  margin-top: 100px;
   gap:96px;
 }
 .feature-content{
@@ -199,6 +199,61 @@ li>.nav-links{
 
 
 /* main section ends here  */
+
+/* footer section start here  */
+.footer{
+   background-color: #090420fb;
+   text-align: center;
+   width:100%;
+   margin-top: 100px;
+   align-items: center;
+   justify-content: center;
+   
+}
+.footer-content{
+    margin-top: 20px;
+    max-width:262px;    
+    color: #FFFFFF;
+
+}
+.footer-title{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+.footer-descp{
+    font-size: 0.9rem;
+    color:#D9DBE1;
+    line-height: 24px;
+}
+.all{
+    font-size: 0.8rem;
+    line-height: 24px;
+    color:#D9DBE1;
+}
+.footer-icon{
+    margin-top: 16px;
+    margin-bottom: 20px;
+   
+}
+.footer-icon{
+    gap:30px;
+    
+    
+}
+.footer-icon a{
+   
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.267);
+    color: #FFFFFF;
+    border-radius: 50%;
+    font-size: 24px;
+    width:40px;
+    height:40px ;
+    align-items: center;
+    justify-content: center;
+    padding:3px;
+  
+}
 
 /* responsive media query  */
 @media screen and (max-width:576px) {
@@ -238,10 +293,17 @@ li>.nav-links{
         width:100%;
     }
     .more-about{
-        float: right;
-        margin:50px;
-        
+        margin-right: 70px;
     }
+    .feature-product{
+        flex-direction: column-reverse;
+        margin-top: 70%;
+    }
+    .feature-content{
+        text-align: center;
+    }
+    
+   
 
     
     
